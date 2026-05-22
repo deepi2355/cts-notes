@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap 5 Practice</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+
+<body class="bg-secondary">
+
+<!-- MAIN CONTENT -->
+<div class="container py-4 bg-white">
+
+  <h1>Learning Bootstrap 5</h1>
+  <p>This is a fixed width container</p>
+  <p class="h1">Hello Bootstrap</p>
+  <p class="display-6">Display heading</p>
+
+  <!-- Text colors -->
+  <p class="text-muted">Muted text</p>
+  <p class="text-primary">Primary text</p>
+  <p class="text-success">Success text</p>
+  <p class="text-danger">Danger text</p>
+  <p class="text-info">Info text</p>
+  <p class="text-warning">Warning text</p>
+  <p class="text-secondary">Secondary text</p>
+  <p class="text-light bg-dark">Light text</p>
+  <p class="text-white bg-dark">White text</p>
+
+  <!-- Grid -->
+  <div class="row text-center fw-bold my-3">
+    <div class="col">Column 1</div>
+    <div class="col">Column 2</div>
+    <div class="col">Column 3</div>
+  </div>
+
+</div>
+
+<!-- HEADER -->
+<header class="bg-dark text-white py-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1>My Blog</h1>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none">HOME</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none">ABOUT</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white text-decoration-none">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- BLOG POSTS -->
+<div class="container py-4">
+  <div class="card bg-info text-white">
+    <div class="card-body">
+      <h2 class="card-title mb-4">Simple Blog with Bootstrap 5</h2>
+
+      <div class="row g-3">
+        <!-- Post 1 -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="https://picsum.photos/200/300" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5>Post Title 1</h5>
+              <p>Date: Feb 15, 2024</p>
+              <p>This is the content of Post 1</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="https://picsum.photos/200/300" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5>Post Title 2</h5>
+              <p>Date: Feb 15, 2024</p>
+              <p>This is the content of Post 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="https://picsum.photos/200/300" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5>Post Title 3</h5>
+              <p>Date: Feb 15, 2024</p>
+              <p>This is the content of Post 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT FORM -->
+<div class="container bg-white p-4 mb-4">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Contact Form</h2>
+
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button class="btn btn-info">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white py-3">
+  <div class="container d-flex justify-content-between flex-wrap">
+    <p class="mb-0">© 2024 My Blog. All rights reserved.</p>
+
+    <ul class="list-inline mb-0">
+      <li class="list-inline-item">
